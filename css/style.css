@@ -1,1 +1,135 @@
-            
+/* Start Body */
+body {
+    background: whitesmoke;
+    color:black;
+}
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(185, 247, 226);
+}
+
+.bg-red {
+    background-color: rgb(226, 102, 102) ;
+}
+
+/* End Debug */
+
+/* Start Countainer */
+.countainer {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%
+
+}
+/* End Countainer */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: blue;
+    text-decoration: none; 
+}
+/* End Anchor / Hyperlink */
+
+/* Start Logo */
+.logo{
+    text-align: center; 
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: red ;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(red, green, blue, alpha),
+        0 6px 10px 0 rgba(red, green, blue, alpha),
+        0 1px 10px 0 rgba(red, green, blue, alpha); 
+}
+
+.menu-primer li {
+    border-right: 1px solid red;
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: beige;
+    font-size: 13px;
+    display: inline inline-block;
+    letter-spacing: 1px;
+    padding : 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading*/
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding:0 20px;
+}
+.jumborton h3 {
+    font-size: 20px;
+    padding: 0 20px;
+/* End Jumbotron/
+
+/* Start Box/
+
+/* End Box/
+
+
+
+
